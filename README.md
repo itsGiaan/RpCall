@@ -96,11 +96,10 @@ The main thread will take care of all the part relating to the use of remote met
 - Compilation: 
 To compile it will be sufficient to go to the /rpCall directory and launch the make command, the executables will be generated to be launched with ./randezvous and ./peer.
 When starting the peer, you will need to provide it with an integer (0 or 1) to choose the access mode, remember, 0 = node_mode and 1 = user_mode, followed by the randezvous ip address.
-- Execution: 
-Katharà will be used to perform the paper, a network environment emulator that requires the following installation steps:
-1- Install Docker (https://docs.docker.com/engine/install/).
-2- Install xterm terminal emulator (sudo apt install xterm or sudo yum install xterm or sudo pacman -S xterm).
-3- Install the right version of Kathara (https://github.com/KatharaFramework/Kathara/wiki/Installation-Guides).
+- Execution: We will be using Katharà, a network environment emulator that requires the following installation steps:
+- Install Docker (https://docs.docker.com/engine/install/).
+- Install xterm terminal emulator (sudo apt install xterm or sudo yum install xterm or sudo pacman -S xterm).
+- Install the right version of Kathara (https://github.com/KatharaFramework/Kathara/wiki/Installation-Guides).
 
 
 Once all the components are installed, just go to the /lab folder and launch the kathara lstart command. Once the devices have been created, from each of them, move to the /shared/project directory where the sources will be present.
